@@ -56,6 +56,9 @@ Once activated, your terminal prompt should show the virtual environment's name.
 ### 5. Install the Project Requirements
 
 With the virtual environment activated, install the required dependencies by running:
+
+pip install -r requirements.txt
+
 This will install all the necessary Python packages listed in the `requirements.txt` file.
 
 ### 6. Run the Project
