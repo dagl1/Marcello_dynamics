@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/2cb1f15a-48e8-4b9e-8e6a-07d439cde2f8)
+
 # Marcello Dynamics Setup Guide
 
 This guide will walk you through the process of setting up the Marcello Dynamics project on your local machine, including installing dependencies and running the project.
