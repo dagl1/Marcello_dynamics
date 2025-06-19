@@ -254,7 +254,7 @@ class FrontEnd:
             settings = {}
             print(f"Saving settings to settings.json at {os.getcwd()}")
             for slider in slider_dict.values():
-                settings[slider['attribute_name']] = getattr(self, slider['attribute_name'])
+                settings[slider['attribute_name']] = getattr(self.dynamic_model, slider['attribute_name'])
 
             filename = f"settings_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
             with open(filename, 'w') as f:
@@ -274,8 +274,8 @@ class FrontEnd:
             decoded = base64.b64decode(content_string)
             settings = json.loads(decoded)
             for key, value in settings.items():
-                setattr(self, key, value)
+                setattr(self.dynamic_model, key, value)
             for slider in slider_dict.values():
-                slider['value'] = getattr(self, slider['attribute_name'])
+                slider['value'] = getattr(self.dynamic_model, slider['attribute_name'])
             return 1
         return Container
