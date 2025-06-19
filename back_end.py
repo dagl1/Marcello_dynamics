@@ -36,9 +36,9 @@ class DynamicModel:
         self.frequency_constant_C_1 = kwargs.get('frequency_constant_C_1', 10)
         self.frequency_constant_C_2 = kwargs.get('frequency_constant_C_2', 35)
         self.frequency_rule_threshold_A = kwargs.get('frequency_rule_threshold_A', 800)
-        self.A_array = np.zeros(self.max_duration)
-        self.B_array = np.zeros(self.max_duration)
-        self.C_array = np.zeros(self.max_duration)
+        self.A_array = np.zeros(self.max_duration*10)
+        self.B_array = np.zeros(self.max_duration*10)
+        self.C_array = np.zeros(self.max_duration*10)
         self.start()
 
 

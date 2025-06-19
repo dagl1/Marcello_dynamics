@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d89ef2-70b0-41f7-9f94-3c748144dafa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Marcello_dynamics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Marcello_dynamics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_end.py" beforeDir="false" afterPath="$PROJECT_DIR$/back_end.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
